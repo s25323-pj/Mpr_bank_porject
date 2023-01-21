@@ -3,6 +3,7 @@ package com.s25323.bank;
 import com.s25323.bank.Model.StatusType;
 import com.s25323.bank.Model.Transaction;
 import com.s25323.bank.Model.User;
+import com.s25323.bank.Storage.TransactionStorage;
 
 import java.util.List;
 
@@ -13,9 +14,9 @@ public class TransactionService {
         this.transactionService = transactionService;
     }
     public List<Transaction> getAllTransactions(){
-        return transactionStorage.getTransactionList();
+        return TransactionStorage.getTransactionList();
     }
-    public Transaction createTransaction (String, transactionID, StatusType status, User user){
+    public <transactionID> Transaction createTransaction (String transactionID, StatusType status, User user){
 
     }
 }
