@@ -13,6 +13,10 @@ public class User {
         this.balance = balance;
     }
 
+    public int getId() {
+        return id;
+    }
+
     public String getName() {
         return name;
     }
