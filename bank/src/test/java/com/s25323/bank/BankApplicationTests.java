@@ -1,4 +1,4 @@
-package com.SzyRos.bank;
+package com.s25323.bank;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

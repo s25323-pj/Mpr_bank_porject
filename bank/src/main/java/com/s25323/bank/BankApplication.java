@@ -1,4 +1,4 @@
-package com.SzyRos.bank;
+package com.s25323.bank;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
